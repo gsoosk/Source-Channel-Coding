@@ -10,6 +10,10 @@ In this repository I implemented a simple version of both channel and source cod
 
 <img src="./images/state_machine.png" width="400">
 
+And then, in the receiver the content will decoded using the Viterbi algorithm which is a dynamic programming approach. It's working like this diagram:
+
+<img src="https://github.com/navid-ak/Source-Channel-Coding/raw/master/Images/2.png" width="200">
+
 `utils.py`: This file contain some utils like frequencies of words or a noise function for testing. 
 
 ## How to Run?
